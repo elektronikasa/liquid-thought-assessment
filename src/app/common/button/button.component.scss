@@ -1,0 +1,25 @@
+.button {
+    height: 67px;
+    width: 183px;
+    border-radius: 32.5px;
+    background: linear-gradient(90deg, #3DC2F1 0%, #6B58EA 100%);
+    box-shadow: 0 0 11px 0 rgba(107,88,234,0.5);
+    text-align: center;
+    margin-top: 40px;
+    line-height: 67px;
+    float: right;
+    cursor: pointer;
+    button {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}

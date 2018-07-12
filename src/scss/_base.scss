@@ -1,0 +1,32 @@
+body {
+    font-family: 'Eina03';
+    background-image: linear-gradient(to right, #3dc2f1, #6b58ea);
+    margin: 0px;
+    padding: 0px;
+}
+// reboot normalize stuff
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+area,
+button,
+[role="button"],
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
+@supports (font-variant-ligatures: common-ligatures) {
+  body {
+    font-feature-settings: normal;
+    font-variant-ligatures: common-ligatures;
+  }
+}
